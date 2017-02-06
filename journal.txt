@@ -1,1 +1,2 @@
 Jan 26 2017: Added git into my computer; sync my computer to the cloud; used cmd 
+Feb 6 2017: Looping for games; the descent and onboarding
