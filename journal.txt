@@ -1,2 +1,10 @@
 Jan 26 2017: Added git into my computer; sync my computer to the cloud; used cmd 
 Feb 6 2017: Looping for games; the descent and onboarding
+"how to calculate the minimum value of an Array"
+
+First create an array then create one with absolute value. Compare the abosalute values by initililizing a new variable that gets updated 
+everytime a number in the array better fits its condition. Than in order to diffrientiate two absolute values with the same values
+while with the absolute values, create an if statement that adds 0.1 to wutever value lower than 0. Then create a vraible that'll represent 
+the position of the smallest number. This will then be used to print out the actual value. Use the for loop to monitor the amount of temperature 
+the user has input.
+
