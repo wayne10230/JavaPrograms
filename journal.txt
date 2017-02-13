@@ -8,3 +8,9 @@ while with the absolute values, create an if statement that adds 0.1 to wutever 
 the position of the smallest number. This will then be used to print out the actual value. Use the for loop to monitor the amount of temperature 
 the user has input.
 
+
+Using if statements to move thor. The movement is determined by comparing thor's spawn coordinates to the destination's coordinates. So if the 
+the x coordinate of Thor is greater than the x coordinate of the destination, the heading of thor on the x axis is determined. To encode unary, the code 
+has to firts be converted to binary, where 1 equals to 0 and 0 equals to 00; with that as the heading, the amount of numbers in the block determines the amount 
+of 0 within the unary code. So if the block has 111, it'll print out 000. And the block can only extends and contain the same number.
+
