@@ -14,3 +14,8 @@ the x coordinate of Thor is greater than the x coordinate of the destination, th
 has to firts be converted to binary, where 1 equals to 0 and 0 equals to 00; with that as the heading, the amount of numbers in the block determines the amount 
 of 0 within the unary code. So if the block has 111, it'll print out 000. And the block can only extends and contain the same number.
 
+A function is a method to import a sub-program(? under public static) into another program. One should use such method because sometimes its makes it easier
+for the programmer to identify each line's function without all the lines; another use is that it simply imports lines. To create a program that translate decimal 
+into binary, one has to use the divide and % functions to replicate the on-paper way of translation. However, since one has to read the remainder backwards to get the
+binary code, the programmer can use the StringBuffer class to convert the binary string backwards. After that, convert it back to string using the .to(forgot) method in 
+a print line statement.   
