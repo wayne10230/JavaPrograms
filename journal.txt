@@ -1,21 +1,8 @@
-Jan 26 2017: Added git into my computer; sync my computer to the cloud; used cmd 
-Feb 6 2017: Looping for games; the descent and onboarding
-"how to calculate the minimum value of an Array"
+00 0 0 0000 00 0000 0 0 00 0000000 0 0000 00 0000 0 00 00 00 0 00 00 0 0 00 00 0000 0 0 00 0 0 00 is the secret message
 
-First create an array then create one with absolute value. Compare the abosalute values by initililizing a new variable that gets updated 
-everytime a number in the array better fits its condition. Than in order to diffrientiate two absolute values with the same values
-while with the absolute values, create an if statement that adds 0.1 to wutever value lower than 0. Then create a vraible that'll represent 
-the position of the smallest number. This will then be used to print out the actual value. Use the for loop to monitor the amount of temperature 
-the user has input.
+I wrote a program that converts binary to unary. The way I did it is through a series of if statement. The program starts 
+with a for loop so that the program can read the number in the String. Aftr that since binary are only in 1 and 0, I can use
+if statements to determine how many zeroes (uniary) to add. However, need to be becareful of adding a 0 to the original 
+conversion since the way I did it doesn't count the original number. (HW convert unary to binary)
 
-
-Using if statements to move thor. The movement is determined by comparing thor's spawn coordinates to the destination's coordinates. So if the 
-the x coordinate of Thor is greater than the x coordinate of the destination, the heading of thor on the x axis is determined. To encode unary, the code 
-has to firts be converted to binary, where 1 equals to 0 and 0 equals to 00; with that as the heading, the amount of numbers in the block determines the amount 
-of 0 within the unary code. So if the block has 111, it'll print out 000. And the block can only extends and contain the same number.
-
-A function is a method to import a sub-program(? under public static) into another program. One should use such method because sometimes its makes it easier
-for the programmer to identify each line's function without all the lines; another use is that it simply imports lines. To create a program that translate decimal 
-into binary, one has to use the divide and % functions to replicate the on-paper way of translation. However, since one has to read the remainder backwards to get the
-binary code, the programmer can use the StringBuffer class to convert the binary string backwards. After that, convert it back to string using the .to(forgot) method in 
-a print line statement.   
+ 
