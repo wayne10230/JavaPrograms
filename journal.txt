@@ -5,4 +5,14 @@ with a for loop so that the program can read the number in the String. Aftr that
 if statements to determine how many zeroes (uniary) to add. However, need to be becareful of adding a 0 to the original 
 conversion since the way I did it doesn't count the original number. (HW convert unary to binary)
 
+Tried to convert unary back to binary. The first step is to split the unary code base on spaces, so the program can detect 
+whether it's 00 or 0, which is either 1 or 0. The rest can be use to determine the number of the the specific type. The conversion
+is stored in a variable using the += method.
+
+Tried to cnvert binary to Ascci, whcih invovles creating an rray with a storage space of 7 due to the fact that an array starts at 
+position 0 and there're actually 8 binary numbers per ascii letter. To split the string, we have to use a method that requires the input
+of the starting and ending position, which in my case uses a variable that holds seven that is multiplied by the amount required to 
+advance to the next Ascii letter. Also tried the GTO 13 secret message which changes the letter in the current message into
+letter that is 13 units away in the alphabet. First convert the message into integer, then add 13 then convert it back to character. 
+
  
