@@ -13,6 +13,11 @@ Tried to cnvert binary to Ascci, whcih invovles creating an rray with a storage 
 position 0 and there're actually 8 binary numbers per ascii letter. To split the string, we have to use a method that requires the input
 of the starting and ending position, which in my case uses a variable that holds seven that is multiplied by the amount required to 
 advance to the next Ascii letter. Also tried the GTO 13 secret message which changes the letter in the current message into
-letter that is 13 units away in the alphabet. First convert the message into integer, then add 13 then convert it back to character. 
+letter that is 13 units away in the alphabet. First convert the message into integer, then add 13 then convert it back to character.
 
+Pratice with array by locating the nearest the defib from a given user location. The programs uses a for-loop to update the position
+of in which the loop has to be read and updated. To get the distance, I used a 2 formulas to get the x and y coordinate than use
+the distance formla to get the actually distance. Also, I learned to convert spaces to actually spaces by using the .replace method whihc
+replaces a certain data within a string to a desired one.
+-
  
