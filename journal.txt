@@ -19,5 +19,7 @@ Pratice with array by locating the nearest the defib from a given user location.
 of in which the loop has to be read and updated. To get the distance, I used a 2 formulas to get the x and y coordinate than use
 the distance formla to get the actually distance. Also, I learned to convert spaces to actually spaces by using the .replace method whihc
 replaces a certain data within a string to a desired one.
--
- 
+
+Used if else if statements to evaluate a condition and change the repsonse. The response is limited in a set range, the if statement 
+has to have another condition so that the response doesn't go over the limit. As for the horse racing game, I stored the strength
+of the horses into an array, used a for loop to find the smallest difference (which is the point of the program).
