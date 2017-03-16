@@ -23,3 +23,14 @@ replaces a certain data within a string to a desired one.
 Used if else if statements to evaluate a condition and change the repsonse. The response is limited in a set range, the if statement 
 has to have another condition so that the response doesn't go over the limit. As for the horse racing game, I stored the strength
 of the horses into an array, used a for loop to find the smallest difference (which is the point of the program).
+
+Idenitified the prime numbers within a set range. Did it by using a series of if statements to validate the condition of whether there're
+any other devisors other than one and itself. Used double loop to update the devided and devisor; since the devisor has to be updated
+until the condition is fully tested, it's in the second loop. As for the devided, it's in the first loop so it doesn't get updated 
+until the second loop is completed. Also created a if statement to add the proper grammar convention to the position of each prime number.
+Did it by getting the % of each number.
+
+Tried to pluralize singluar nouns. Done it by using a series of if statements to select the nouns for the different treatments.
+As for the speical cases, the program starts by exluding them from the main statement and added a if at the bottom to inlude 
+the special cases; which means the whole program is enclosed in an if else statement that exludes the specials cases at the start and
+accoutn them in the end.
