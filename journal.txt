@@ -34,3 +34,11 @@ Tried to pluralize singluar nouns. Done it by using a series of if statements to
 As for the speical cases, the program starts by exluding them from the main statement and added a if at the bottom to inlude 
 the special cases; which means the whole program is enclosed in an if else statement that exludes the specials cases at the start and
 accoutn them in the end.
+
+Tried to calculate the average of a set of number. The first program is limited to only 3 numbers per set, and is done in a do while loop, 
+which means the whether the program is going to continue or not is determined at the end of each program. The second edition is able to
+to calculate a set of numbers that is defined by the user. Th program uses a while loop to count the amount of data which in turn can 
+be the denominator for calculating average. The final edition uses the try catch statement that tries a certain condtion and only
+moves forward if the catch line isn't satsified. WIth this statement, the program no longer needs Y or N but instead uses int or string; therefore 
+as long as the user inputs numbers, the program will continue to allow that and calcualte the average once the user enters anything
+that's not a number.
