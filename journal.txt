@@ -42,3 +42,7 @@ be the denominator for calculating average. The final edition uses the try catch
 moves forward if the catch line isn't satsified. WIth this statement, the program no longer needs Y or N but instead uses int or string; therefore 
 as long as the user inputs numbers, the program will continue to allow that and calcualte the average once the user enters anything
 that's not a number.
+
+Learned to use inhertitence with involves creating a subclass for a super class. The computer runs superclass's program first before running
+the subclass's. Need to use the extends command on top top the subclass to establish itself as a subclass. Today, I created two subclasses under
+a superclass. The subclasses act as two distinguishing program that're created to modify things differently.
