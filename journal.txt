@@ -46,3 +46,8 @@ that's not a number.
 Learned to use inhertitence with involves creating a subclass for a super class. The computer runs superclass's program first before running
 the subclass's. Need to use the extends command on top top the subclass to establish itself as a subclass. Today, I created two subclasses under
 a superclass. The subclasses act as two distinguishing program that're created to modify things differently.
+
+
+Created animation for a character. The animation is for moving in the basic four direction and invloves using loop to repeatedly and continously 
+show images to create a fake sense of motion. Had to use GIMP2 and paint to crop out the individual pictures. Also used a for loop to load in the image 
+since they all follow the template of the direction plus it sequence in the  animation.
