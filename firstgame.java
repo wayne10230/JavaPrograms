@@ -1,7 +1,8 @@
+
 import processing.core.PApplet;
 import processing.core.PImage;
 public class firstgame extends PApplet {
- 
+ private double dragCoef=0.9;
 	private int h=400;
 	private int w=400;
 	private int posx;
@@ -12,18 +13,84 @@ public class firstgame extends PApplet {
 	private int sqy=100;
 	private int speed=10;
 	private int cnt=0;
+	private int cnthit=0;
 	private String direction="wait";
 	PImage img;
 	PImage meatboy;
+	PImage mt0;
 	int numRImg=7;
 	int numDImg=6;
 	int numUImg=6;
 	int numLImg=6;
+	double speed1=10;
+	double angle=(Math.PI/4);
 	
 	PImage [] mbR=new PImage[numRImg];
 	PImage [] mbD=new PImage[numDImg];
 	PImage [] mbU=new PImage[numUImg];
 	PImage [] mbL=new PImage[numLImg];
+	
+	public void bounce ()
+	{
+		
+	           if (sqx<5)
+	           {	   
+	        	   sqx=0;
+	        	   angle=Math.PI-angle;
+	               speed1*=dragCoef;
+	               cnthit++;
+	           }
+	       
+			
+		
+	    	   if (sqx>w-sqw)
+	    	   {   
+	    		   sqx=w-sqw;
+	    		   angle=Math.PI-angle;
+	    		   speed1*=dragCoef;
+	    		   cnthit++;
+	    	   }
+	      
+			
+	    	   if (sqy<0)
+	    	   { 
+	    	   sqy=0;
+	    	   angle=Math.PI-angle;
+	    	   speed1*=dragCoef;
+	    	   cnthit++;
+	    	   }
+	       
+	    	   if (sqy>w-sqh-15)
+	    	   {
+	    		   sqy=w-sqh-15;
+		    	   angle=-angle;
+		    	   speed1*=dragCoef;
+		    	   cnthit++;
+	    	   }
+	    	  
+	    	   if (sqy<5)	   
+	    	   {
+	    		   sqy=5;
+		    	   angle=Math.PI+angle;
+		    	   speed1*=dragCoef;
+		    	   cnthit++;
+	    	   }
+	    	   if (sqy>h-sqh)
+	    	   {  
+	    		   sqy=h-sqh;
+	    		   angle=Math.PI-angle;
+	    		   speed1*=dragCoef;
+	    		   cnthit++;
+	    	   }
+	    	   
+	}
+	public void move ()
+	{
+		sqx+=(int) (speed1*Math.cos(angle));
+		sqy+=(int) (speed1*Math.sin(angle));
+		
+	}
+	
 	
 	public void settings ()
 	{
@@ -55,6 +122,7 @@ public class firstgame extends PApplet {
 					
 				
 		}
+		mt0=loadImage ("mt0.png");
 	
 	}
 	
@@ -164,10 +232,20 @@ public class firstgame extends PApplet {
 				}
 			
 		}
+		if (cnthit>10)
+		{	img=mt0;
+			speed1=0;
+		
+		}
 		img.resize (40,60);
 		image(img,sqx,sqy,56,76);
 		
 		direction="wait";
+		
+		
+		move();
+		bounce();
+		System.out.println(cnthit);
 	}
 	
 	
@@ -175,5 +253,4 @@ public class firstgame extends PApplet {
 		// TODO Auto-generated method stub
      PApplet.main("firstgame",args);
 	}
-
 }

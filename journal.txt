@@ -51,3 +51,7 @@ a superclass. The subclasses act as two distinguishing program that're created t
 Created animation for a character. The animation is for moving in the basic four direction and invloves using loop to repeatedly and continously 
 show images to create a fake sense of motion. Had to use GIMP2 and paint to crop out the individual pictures. Also used a for loop to load in the image 
 since they all follow the template of the direction plus it sequence in the  animation.
+
+Created a method called bounce and variables for angle so that whenever the object hits a wall, it reflects back in a 180 fashion and decrease speed by 
+90 percent as well. The object will "die" once it hits the wall 11 times. So its speed is 0 and the image changes. So for my homework, I have to create a 
+health bar for the object so that whenever it hits the wall, its health gets deducted by 10. 
