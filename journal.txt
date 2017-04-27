@@ -55,3 +55,7 @@ since they all follow the template of the direction plus it sequence in the  ani
 Created a method called bounce and variables for angle so that whenever the object hits a wall, it reflects back in a 180 fashion and decrease speed by 
 90 percent as well. The object will "die" once it hits the wall 11 times. So its speed is 0 and the image changes. So for my homework, I have to create a 
 health bar for the object so that whenever it hits the wall, its health gets deducted by 10. 
+
+Created a "window" program that converts km to miles and meter to feet.The program invovles creating an actionListener that processes the input of the main 
+"function?". The main fuction has to "Sub-functions" which first creates the window, then add the text and information reciever to the window. The display 
+of the processed information is shown using JOPtionPane.
