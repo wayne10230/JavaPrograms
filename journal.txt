@@ -59,3 +59,6 @@ health bar for the object so that whenever it hits the wall, its health gets ded
 Created a "window" program that converts km to miles and meter to feet.The program invovles creating an actionListener that processes the input of the main 
 "function?". The main fuction has to "Sub-functions" which first creates the window, then add the text and information reciever to the window. The display 
 of the processed information is shown using JOPtionPane.
+
+Tried to create a calculator with the border layout. The program consists of a display screen on the top, and the keypads in the middle. Also used actionlistener
+to translate the button pressed to the display of the symbol on the button.
