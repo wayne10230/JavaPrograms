@@ -65,3 +65,7 @@ to translate the button pressed to the display of the symbol on the button.
 
 Tried to recreate the game 2048 with PApplet. Started with creating 16 blocks in a 4*4 box. Then, created a controllable red block that moves along the other 15 grey
 blocks. Also programmed so that the red block doesn't exceed the borders.
+
+Created random blocks that stays on the screen even after a update. The update happens whenever the user moves the red block, so that it generates a new x and y coordinate
+for the yellow randomly generated box. Used several arrays to accomplsih this including a two-dimemsional array; these are to store the randomly generated coordinates
+so that the newly generated will stay on the screen.
